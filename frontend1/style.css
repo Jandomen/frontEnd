@@ -1,0 +1,92 @@
+p {
+    color: blue;
+  }
+
+  .destacado {
+    font-weight: bold;
+  }
+
+  #encabezado {
+    font-size: 24px;
+  }
+
+  p {
+    color: red;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  
+  body {
+    background-color: #f0f0f0;
+  }
+
+  
+  p {
+    color: blue;         /* Nombre de color */
+  }
+  
+  h1 {
+    color: #ff0000;      /* Código hexadecimal */
+  }
+  
+  span {
+    color: rgb(255, 0, 0); /* Valor RGB */
+  }
+
+  
+  body {
+    background-color: #f0f0f0; /* Color de fondo */
+  }
+  
+  div {
+    background-image: url('imagen.jpg'); /* Imagen de fondo */
+  }
+
+  
+  div {
+    margin: 10px;         /* Margen de 10 píxeles en todos los lados */
+    padding: 20px;        /* Relleno de 20 píxeles en todos los lados */
+    border: 2px solid #000; /* Borde de 2 píxeles sólido de color negro */
+  }
+
+  
+  p {
+    font-size: 16px;          /* Tamaño del texto */
+    font-family: 'Arial', sans-serif; /* Familia de fuente */
+  }
+
+  h1 {
+    font-style: italic;   /* Texto en cursiva */
+    font-weight: bold;    /* Texto en negrita */
+  }
+
+  /* Estilos para pantallas más pequeñas que 600px de ancho */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  /* Estilos para pantallas más grandes que 600px de ancho */
+  @media only screen and (min-width: 601px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  
+  body {
+    font-size: 16px; /* Tamaño de fuente base para el cuerpo */
+  }
+  
+  h1 {
+    font-size: 2em; /* Será 32px (2 * 16px) */
+  }
+  
+  p {
+    font-size: 1.5rem; /* Será 24px (1.5 * 16px) */
+  }
+  
